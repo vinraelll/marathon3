@@ -1,0 +1,36 @@
+.reserve {
+    min-height: 100vh;
+    background-image: url(../img/reserve.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+
+.reserve-content {
+    padding-top: 68px;
+    display: flex;
+    justify-content: flex-end;
+    color: #fff;
+}
+
+.reserve-content__block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.reserve-content__block-title {
+    font-family: PT Serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+}
+
+.reserve-content__link {
+    text-align: right;
+    margin-top: 15px;
+    padding: 17px;
+    background-color: #020202;
+    text-decoration: none;
+    line-height: 18px;
+    color: #fff;
+}

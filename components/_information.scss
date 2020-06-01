@@ -1,0 +1,124 @@
+.information {
+    background: #000;
+    color: #fff;
+}
+
+.information-inner {
+    padding-top: 100px;
+    padding-bottom: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.information-block__managers {
+    width: 297px;
+}
+.information-block__managers-title {
+    font-family: PT Serif;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+}
+.information-block__managers-block {
+    display: flex;
+    justify-content: space-between;
+}
+.information-block__managers-item {
+    text-align: center;
+    font-family: Roboto Condensed;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.information-block__managers-item img {
+    margin: 27px 0px -22px 0px;
+    border-radius: 50%;
+    object-fit: cover;
+    width: 100px;
+    height: 100px;
+}
+
+.information-block__managers-item .name {
+    margin-top: 32px;
+}
+
+.information-block__managers-item a {
+    margin-top: 43px;
+    text-decoration: none;
+    color: #000;
+    background-color: #fff;
+    display: inline-block;
+    padding: 16px 21px;
+}
+
+.information-block__blog h3 {
+    text-align: center;
+    font-family: PT Serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    color: #fff;
+    margin-bottom: 28px;
+}
+
+.information-block__blog ul {
+    list-style-type: none;
+}
+
+.information-block__blog li {
+    padding: 14px 0px 14px 37px;
+    background: url(../img/list-arrow.svg); 
+    background-repeat: no-repeat; 
+    background-position: left center;
+    font-family: Roboto Condensed;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 18px;
+}
+
+.information-block__blog li a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.information-block__review {
+    width: 300px;
+}
+
+.information-block__review h3 {
+    text-align: center;
+    font-family: PT Serif;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    margin-bottom: 40px;
+}
+
+.information-block__review img {
+    width: 300px;
+    height: 127px;
+    margin-bottom: 22px;
+}
+
+.information-block__review p {
+    font-family: 400;
+    font-size: 18px;
+    line-height: 21px;
+    margin-bottom: 22px;
+}
+
+.information-block__review a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-family: Roboto Condensed;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    padding: 16px 28px;
+    background-color: #fff;
+}
+

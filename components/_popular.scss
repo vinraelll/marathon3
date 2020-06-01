@@ -1,0 +1,116 @@
+.popular__title {
+    font-family: 'PT Serif', serif;
+    font-weight: normal;
+    text-align: center;
+    color: white;
+    background-color: black;
+    font-size: 48px;
+    line-height: 64px;
+    padding: 18px 15px;
+}
+
+.container {
+    max-width: 1230px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.popular__inner {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.popular__item-title {
+    font-family: Roboto Condensed;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #888888;
+    padding: 30px 0px;
+}
+
+.popular__img {
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.popular__link {
+    display: block;
+    font-family: Roboto Condensed;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #fff;
+    background: #C4C4C4;
+    border: 2px solid #C4C4C4;
+    text-decoration: none;
+    text-align: center;
+    padding: 13px 26px;
+    // max-width: 150px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.reason {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reason-block {
+    max-width: 486px;
+    margin: 100px 0px;
+}
+
+.reason-title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reason-title__img {
+    width: 103px;
+    height: 103px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.reason-title__text {
+    padding-left: 33px;
+    font-family: PT Serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 36px
+}
+
+.reason-block__text {
+    width: 400px;
+    font-family: Roboto Condensed;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+    margin: 26px 0px 42px 0px;
+}
+
+.reason-btn__img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.reason-btn {
+    display: flex;
+    align-items: center;
+}
+.reason-btn__link {
+    font-family: Roboto Condensed;
+    font-size: 18px;
+    line-height: 24px;
+    text-decoration: underline;
+    color: #888888;
+    margin-left: 6px;
+}

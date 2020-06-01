@@ -1,0 +1,27 @@
+.slider__item {
+    // background-image: url(../img/slider.jpg);
+    min-height: 600px;
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: cover;
+}
+
+.slick-arrow {
+    border: none;
+    outline: none;
+    background: transparent;
+    position: absolute;
+    top: 50%;
+    z-index: 5;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.slick-next {
+    right: 20px;
+}
+
+.slick-prev {
+    left: 20px;
+}
+

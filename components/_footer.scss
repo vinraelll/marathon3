@@ -1,0 +1,26 @@
+// -------FOOTER-------- \\
+
+.footer {
+    display: flex;
+}
+
+.footer-menu {
+    margin-right: 130px;
+    list-style-type: none;
+}
+
+.footer-menu__link {
+    text-decoration: none;
+    color: #fff;
+    font-family: Roboto Condensed;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.bottom-logo {
+    display: flex;
+    justify-content: center;
+}
+
+// -------FOOTER-------- \\
